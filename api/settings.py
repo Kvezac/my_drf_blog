@@ -57,7 +57,7 @@ MIDDLEWARE = [
 # settings JWT
 LOGIN_URL = "/api/v1/signin"
 
-SIMPLE_JWT = SIMPLE_JWT = {
+SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=60),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=2),
 }
